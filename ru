@@ -1249,6 +1249,8 @@ xkb_symbols "winkeys-p" {
     key <AE08> { [ asterisk,    8 ] };
     key <AE09> { [ parenleft,   9 ] };
     key <AE10> { [ parenright,  0 ] };
+    key <FK02> { [ F2,          colon ] };
+    key <FK03> { [ F3,          asciitilde ] };
     key <FK06> { [ F6,          numerosign ] };
     key <FK08> { [ F8,          quotedbl ] };
     key <FK09> { [ F9,          apostrophe ] };
