@@ -1250,7 +1250,37 @@ xkb_symbols "winkeys-p" {
     key <AE09> { [ 9 ,parenleft     ] };
     key <AE10> { [ 0, parenright    ] };
     key <FK02> { [ F2,          colon ] };
-    key <FK03> { [ F3,          asciitilde ] };
+    key <FK07> { [ F7,          asciitilde ] };
+    key <FK06> { [ F6,          numerosign ] };
+    key <FK08> { [ F8,          quotedbl ] };
+    key <FK09> { [ F9,          apostrophe ] };
+    key <FK11> { [ F11,         question ] };
+    key <FK12> { [ F12,         bar ] };
+};
+
+// RU Winkeys-PD layout based on Russian (Programmer)
+// Changes:
+//     -Classic top row digits
+//     -Shift+F2 :
+//     -Shift+F7 ~
+// Nikolay Makarov <makarov-na@yandex.ru>
+partial alphanumeric_keys
+xkb_symbols "winkeys-pd" {
+    include "ru(winkeys)"
+    name[Group1]= "Russian (Progr1)";
+
+    key <AE01> { [ 1, exclam        ] };
+    key <AE02> { [ 2, at            ] };
+    key <AE03> { [ 3, numbersign    ] };
+    key <AE04> { [ 4, dollar        ] };
+    key <AE05> { [ 5, percent       ] };
+    key <AE06> { [ 6, asciicircum   ] };
+    key <AE07> { [ 7, ampersand     ] };
+    key <AE08> { [ 8 ,asterisk      ] };
+    key <AE09> { [ 9 ,parenleft     ] };
+    key <AE10> { [ 0, parenright    ] };
+    key <FK02> { [ F2,          colon ] };
+    key <FK07> { [ F7,          asciitilde ] };
     key <FK06> { [ F6,          numerosign ] };
     key <FK08> { [ F8,          quotedbl ] };
     key <FK09> { [ F9,          apostrophe ] };
