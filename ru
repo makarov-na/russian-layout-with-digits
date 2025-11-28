@@ -1239,16 +1239,16 @@ xkb_symbols "winkeys-p" {
     include "ru(winkeys)"
     name[Group1]= "Russian (Programmer)";
 
-    key <AE01> { [ exclam,      1 ] };
-    key <AE02> { [ at,          2 ] };
-    key <AE03> { [ numbersign,  3 ] };
-    key <AE04> { [ dollar,      4 ] };
-    key <AE05> { [ percent,     5 ] };
-    key <AE06> { [ asciicircum, 6 ] };
-    key <AE07> { [ ampersand,   7 ] };
-    key <AE08> { [ asterisk,    8 ] };
-    key <AE09> { [ parenleft,   9 ] };
-    key <AE10> { [ parenright,  0 ] };
+    key <AE01> { [ 1, exclam        ] };
+    key <AE02> { [ 2, at            ] };
+    key <AE03> { [ 3, numbersign    ] };
+    key <AE04> { [ 4, dollar        ] };
+    key <AE05> { [ 5, percent       ] };
+    key <AE06> { [ 6, asciicircum   ] };
+    key <AE07> { [ 7, ampersand     ] };
+    key <AE08> { [ 8 ,asterisk      ] };
+    key <AE09> { [ 9 ,parenleft     ] };
+    key <AE10> { [ 0, parenright    ] };
     key <FK02> { [ F2,          colon ] };
     key <FK03> { [ F3,          asciitilde ] };
     key <FK06> { [ F6,          numerosign ] };
