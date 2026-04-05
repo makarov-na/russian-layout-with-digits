@@ -1267,7 +1267,7 @@ xkb_symbols "winkeys-p" {
 partial alphanumeric_keys
 xkb_symbols "winkeys-pd" {
     include "ru(winkeys)"
-    name[Group1]= "Russian (Progr1)";
+    name[Group1]= "Russian (Programmer classic digits)";
 
     key <AE01> { [ 1, exclam        ] };
     key <AE02> { [ 2, at            ] };
