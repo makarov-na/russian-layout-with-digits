@@ -1,0 +1,37 @@
+From 31e4f6f9ffcafa97f98b9b57b287b432da55832c Mon Sep 17 00:00:00 2001
+From: Nikolay Makarov <makarov-na@yandex.ru>
+Date: Sun, 5 Apr 2026 15:08:54 +0300
+Subject: [PATCH] =?UTF-8?q?=D0=A0=D0=B5=D0=B5=D1=81=D1=82=D1=80=20=D1=80?=
+ =?UTF-8?q?=D0=B0=D1=81=D0=BA=D0=BB=D0=B0=D0=B4=D0=BE=D0=BA?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ evdev.extras.xml | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/evdev.extras.xml b/evdev.extras.xml
+index 0eb92d1..27651fe 100644
+--- a/evdev.extras.xml
++++ b/evdev.extras.xml
+@@ -890,6 +890,16 @@
+             </languageList>
+           </configItem>
+         </variant>
++        <variant>
++          <configItem popularity="exotic">
++            <name>winkeys-pd</name>
++            <shortDescription>winkeys-p</shortDescription>
++            <description>Russian (Programmer classic digits)</description>
++            <languageList>
++              <iso639Id>rus</iso639Id>
++            </languageList>
++          </configItem>
++        </variant>
+         <variant>
+           <configItem popularity="exotic">
+             <name>typo</name>
+-- 
+2.53.0
+
