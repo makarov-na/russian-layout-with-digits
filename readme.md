@@ -1,8 +1,8 @@
 
 
 ```shell
-  cd /usr/share/X11/xkb/symbols
-  sudo patch -p1 < /home/mna/Projects/keyboard-tuning/0001-custom-keyboard.patch  
+  sudo cp /usr/share/X11/xkb/symbols/ru /usr/share/X11/xkb/symbols/ru.orig
+  sudo patch /usr/share/X11/xkb/symbols/ru /home/mna/Projects/keyboard-tuning/0001-custom-keyboard.patch  
 ```
 
 Патч готовится так:
