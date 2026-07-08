@@ -1259,6 +1259,7 @@ xkb_symbols "winkeys-p" {
 // RU Winkeys-PD layout based on Russian (Programmer)
 // Changes:
 //     -Classic top row digits
+//     -Shift+F1 [
 //     -Shift+F2 :
 //     -Shift+F7 ~
 // Nikolay Makarov <makarov-na@yandex.ru>
@@ -1277,6 +1278,7 @@ xkb_symbols "winkeys-pd" {
     key <AE08> { [ 8 ,asterisk      ] };
     key <AE09> { [ 9 ,parenleft     ] };
     key <AE10> { [ 0, parenright    ] };
+    key <FK01> { [ F1,          bracketleft ] };
     key <FK02> { [ F2,          colon ] };
     key <FK07> { [ F7,          asciitilde ] };
     key <FK06> { [ F6,          numerosign ] };
