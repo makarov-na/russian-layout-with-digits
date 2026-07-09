@@ -18,7 +18,7 @@ index ff821f9..fd0a7ad 100644
 +// RU Winkeys-PD layout based on Russian (Programmer)
 +// Changes:
 +//     -Classic top row digits
-+//     -Shift+F1 [
++//     -Shift+F1 &
 +//     -Shift+F2 :
 +//     -Shift+F7 ~
 +// Nikolay Makarov <makarov-na@yandex.ru>
@@ -37,7 +37,7 @@ index ff821f9..fd0a7ad 100644
 +    key <AE08> { [ 8 ,asterisk      ] };
 +    key <AE09> { [ 9 ,parenleft     ] };
 +    key <AE10> { [ 0, parenright    ] };
-+    key <FK01> { [ F1,          bracketleft ] };
++    key <FK01> { [ F1,          ampersand ] };
 +    key <FK02> { [ F2,          colon ] };
 +    key <FK07> { [ F7,          asciitilde ] };
 +    key <FK06> { [ F6,          numerosign ] };
