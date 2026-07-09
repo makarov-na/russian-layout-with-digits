@@ -4,20 +4,21 @@ Date: Sun, 5 Apr 2026 14:20:17 +0300
 Subject: [PATCH] custom keyboard
 
 ---
- ru | 31 +++++++++++++++++++++++++++++++
- 1 file changed, 31 insertions(+)
+ ru | 33 +++++++++++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
 
 diff --git a/ru b/ru
-index ff821f9..02b4e91 100644
+index ff821f9..fd0a7ad 100644
 --- a/ru
 +++ b/ru
-@@ -1256,6 +1256,37 @@ xkb_symbols "winkeys-p" {
+@@ -1256,6 +1256,39 @@ xkb_symbols "winkeys-p" {
      key <FK12> { [ F12,         bar ] };
  };
- 
+
 +// RU Winkeys-PD layout based on Russian (Programmer)
 +// Changes:
 +//     -Classic top row digits
++//     -Shift+F1 [
 +//     -Shift+F2 :
 +//     -Shift+F7 ~
 +// Nikolay Makarov <makarov-na@yandex.ru>
@@ -36,6 +37,7 @@ index ff821f9..02b4e91 100644
 +    key <AE08> { [ 8 ,asterisk      ] };
 +    key <AE09> { [ 9 ,parenleft     ] };
 +    key <AE10> { [ 0, parenright    ] };
++    key <FK01> { [ F1,          bracketleft ] };
 +    key <FK02> { [ F2,          colon ] };
 +    key <FK07> { [ F7,          asciitilde ] };
 +    key <FK06> { [ F6,          numerosign ] };
@@ -49,6 +51,5 @@ index ff821f9..02b4e91 100644
  // Russian keyboard layout with typography symbols.
  // This is a modified Russian standard keyboard, with the third level containing
  // typographic symbols commonly used in Russian language and punctuation symbols
--- 
-2.53.0
-
+--
+2.54.0
