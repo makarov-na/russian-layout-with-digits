@@ -6,6 +6,8 @@
 
 Раскладка основана на «Russian (Programmer)», но возвращает классические цифры 1–0 на верхний ряд. Раскладка доступна в системе как **Russian (Programmer classic digits)**.
 
+![Раскладка winkeys-pd](keyboard.png)
+
 ### Изменённые клавиши
 
 | Клавиша | Без Shift | С Shift |

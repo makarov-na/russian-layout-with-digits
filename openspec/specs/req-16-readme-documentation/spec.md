@@ -38,3 +38,10 @@ The README SHALL include brief instructions for configuring the new layout in KD
 #### Scenario: User configures KDE layout
 - **WHEN** user has applied the patch and wants to enable the layout in KDE
 - **THEN** they see the path to System Settings → Keyboard → Layouts and instructions to add the new layout
+
+### Requirement: Keyboard layout image
+The README SHALL include a visual image of the keyboard layout (`keyboard.png`) in the layout description section.
+
+#### Scenario: User views layout image
+- **WHEN** user reads the layout description section
+- **THEN** they see a visual representation of the keyboard layout
