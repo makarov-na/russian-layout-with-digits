@@ -904,7 +904,7 @@
         </variant>
         <variant>
           <configItem popularity="exotic">
-q            <name>typo</name>
+            <name>typo</name>
             <shortDescription>ru</shortDescription>
             <description>Russian (plus typographic symbols)</description>
             <countryList>
