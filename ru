@@ -1265,7 +1265,7 @@ xkb_symbols "winkeys-p" {
 // Nikolay Makarov <makarov-na@yandex.ru>
 partial alphanumeric_keys
 xkb_symbols "winkeys-pd" {
-    include "ru(winkeys)"
+    include "ru(winkeys-p)"
     name[Group1]= "Russian (Programmer classic digits)";
 
     key <AE01> { [ 1, exclam        ] };
@@ -1281,11 +1281,6 @@ xkb_symbols "winkeys-pd" {
     key <FK01> { [ F1,          ampersand ] };
     key <FK02> { [ F2,          colon ] };
     key <FK07> { [ F7,          asciitilde ] };
-    key <FK06> { [ F6,          numerosign ] };
-    key <FK08> { [ F8,          quotedbl ] };
-    key <FK09> { [ F9,          apostrophe ] };
-    key <FK11> { [ F11,         question ] };
-    key <FK12> { [ F12,         bar ] };
 };
 
 
