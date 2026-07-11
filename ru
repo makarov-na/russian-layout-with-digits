@@ -1258,10 +1258,9 @@ xkb_symbols "winkeys-p" {
 
 // RU Winkeys-PD layout based on Russian (Programmer)
 // Changes:
-//     -Classic top row digits
-    //     -Shift+F1 &
-//     -Shift+F2 :
-//     -Shift+F7 ~
+//     - Classic top row digits
+//     - Shift+F2 :
+//     - Shift+F7 ~
 // Nikolay Makarov <makarov-na@yandex.ru>
 partial alphanumeric_keys
 xkb_symbols "winkeys-pd" {
@@ -1275,14 +1274,12 @@ xkb_symbols "winkeys-pd" {
     key <AE05> { [ 5, percent       ] };
     key <AE06> { [ 6, asciicircum   ] };
     key <AE07> { [ 7, ampersand     ] };
-    key <AE08> { [ 8 ,asterisk      ] };
-    key <AE09> { [ 9 ,parenleft     ] };
+    key <AE08> { [ 8, asterisk      ] };
+    key <AE09> { [ 9, parenleft     ] };
     key <AE10> { [ 0, parenright    ] };
-    key <FK01> { [ F1,          ampersand ] };
-    key <FK02> { [ F2,          colon ] };
-    key <FK07> { [ F7,          asciitilde ] };
+    key <FK02> { [ F2, colon        ] };
+    key <FK07> { [ F7, asciitilde   ] };
 };
-
 
 // Russian keyboard layout with typography symbols.
 // This is a modified Russian standard keyboard, with the third level containing

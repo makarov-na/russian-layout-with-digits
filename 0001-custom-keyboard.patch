@@ -1,6 +1,6 @@
 --- ru_orig	2026-07-11 15:02:11.417502873 +0300
-+++ ru	2026-07-11 15:07:27.360552051 +0300
-@@ -1256,6 +1256,30 @@
++++ ru	2026-07-11 16:24:06.210703133 +0300
+@@ -1256,6 +1256,31 @@
      key <FK12> { [ F12,         bar ] };
  };
  
@@ -8,7 +8,7 @@
 +// Changes:
 +//     - Classic top row digits
 +//     - Shift+F2 :
-+//     -Shift+F7 ~
++//     - Shift+F7 ~
 +// Nikolay Makarov <makarov-na@yandex.ru>
 +partial alphanumeric_keys
 +xkb_symbols "winkeys-pd" {
@@ -22,13 +22,13 @@
 +    key <AE05> { [ 5, percent       ] };
 +    key <AE06> { [ 6, asciicircum   ] };
 +    key <AE07> { [ 7, ampersand     ] };
-+    key <AE08> { [ 8 ,asterisk      ] };
-+    key <AE09> { [ 9 ,parenleft     ] };
++    key <AE08> { [ 8, asterisk      ] };
++    key <AE09> { [ 9, parenleft     ] };
 +    key <AE10> { [ 0, parenright    ] };
-+    key <FK02> { [ F2,          colon ] };
-+    key <FK07> { [ F7,          asciitilde ] };
++    key <FK02> { [ F2, colon        ] };
++    key <FK07> { [ F7, asciitilde   ] };
 +};
- 
++
  // Russian keyboard layout with typography symbols.
  // This is a modified Russian standard keyboard, with the third level containing
  // typographic symbols commonly used in Russian language and punctuation symbols
