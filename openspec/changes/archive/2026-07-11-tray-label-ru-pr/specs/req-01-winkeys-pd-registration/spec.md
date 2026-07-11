@@ -1,4 +1,4 @@
-## ADDED Requirements
+## MODIFIED Requirements
 
 ### Requirement: Layout registration
 The `winkeys-pd` variant SHALL be registered in `evdev.extras.xml` as a Russian layout variant.
