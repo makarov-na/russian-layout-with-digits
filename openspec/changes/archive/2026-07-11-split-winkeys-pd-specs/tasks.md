@@ -29,4 +29,4 @@
 
 ## 4. Git
 
-- [ ] 4.1 Локальный комит: `split winkeys-pd into 19 individual specs`
+- [x] 4.1 Локальный комит: `split winkeys-pd into 19 individual specs`
