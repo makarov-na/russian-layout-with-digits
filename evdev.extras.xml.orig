@@ -904,17 +904,7 @@
         </variant>
         <variant>
           <configItem popularity="exotic">
-            <name>winkeys-pd</name>
-            <shortDescription>ru-pr</shortDescription>
-            <description>Russian (Programmer classic digits)</description>
-            <languageList>
-              <iso639Id>rus</iso639Id>
-            </languageList>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem popularity="exotic">
-            <name>typo</name>
+q            <name>typo</name>
             <shortDescription>ru</shortDescription>
             <description>Russian (plus typographic symbols)</description>
             <countryList>
